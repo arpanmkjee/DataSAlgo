@@ -1,0 +1,5 @@
+# Stress Testing
+
+ I will explain to you and show you in action a powerful technique called stress testing. By the end, you will be able to implement a stress test for your solution of an algorithmic problem, use it to find a small and easy test on which your program fails, debug your program and make sure it works correctly afterwards with high confidence. 
+
+Also, you will be able to list and apply the set of standard testing techniques, which should be always applied when solving algorithmic programming assignments. So what is stress testing? In general, it is a program that generates random tests in an infinite loop, and for each test, it launches your solution on this test and an alternative solution on the same test and compares the results. This alternative solution you also have to invent and implement yourself, but it is usually easy, because it can be any simple, slow, brute force solution, or just any other solution that you can come up with it. The only requirement is that it should be significantly different from your main solution. 
